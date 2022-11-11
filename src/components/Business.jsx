@@ -23,12 +23,9 @@ const Business = () => (
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Software Masters - <br className="sm:block hidden"/> Who are we?</h2>
         <p className={`${styles.paragraph} max-w-[600px] mt-4`}>
-          We are a web development company that is dedicated to giving you the best
-          website possible because we believe that behind every good company is
-          an excellent website. We offer high quality web design that is bespoke 
-          and fully optimised to be accessed from all devices. We have experience 
-          in creating bespoke coded website, using CMS software like WordPress and
-          SEO optimisation.
+          We are a digital transformation company. What does that mean? We utilise the latest and best technology
+          available to help you to not only reach more customers but also to have a better understanding and control
+          of your business.
         </p>
 
         <Button styles="mt-10" />

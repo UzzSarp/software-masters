@@ -32,7 +32,7 @@ export const features = [
     icon: Design,
     title: "Design",
     content:
-      "Our team will deliver a clean, sleek design that compliments both you and your business.",
+      "Our team will create clean, sleek designs for websites and social media that compliments both you and your business.",
   },
   {
     id: "feature-3",
@@ -47,12 +47,12 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Software Masters helped me to create a website that was everything that I asked for and met the requirements",
+    name: "Lawrence",
+    title: "Founder, Virpio Homes",
     img: people01,
   },
-  {
+  /*{
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
@@ -67,7 +67,7 @@ export const feedback = [
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
-  },
+  },*/
 ];
 
 export const stats = [
@@ -195,3 +195,88 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+
+import {
+  design,
+  Editing,
+  Hootsuite,
+  HTML,
+  Responsiveness
+} from "../assets";
+
+import {
+  SEO,
+  Shopify,
+  Social,
+  Wordpress,
+  Facebook
+} from "../assets";
+
+const sportCarsArray = [
+  {
+    id: 0,
+    logo: design,
+    text: `Design`,
+    width: "150px",
+  },
+  {
+    id: 1,
+    logo: Wordpress,
+    text: `Wordpress`,
+    width: "150px",
+  },
+  {
+    id: 2,
+    logo: HTML,
+    text: `HTML`,
+    width: "150px",
+  },
+  {
+    id: 3,
+    logo: design,
+    text: "Design",
+    width: "150px",
+  },
+  {
+    id: 4,
+    logo: Responsiveness,
+    text: "Responsiveness",
+    width: "150px",
+  },
+];
+
+const electricCarsArray = [
+  {
+    id: 0,
+    logo: SEO,
+    text: `SEO`,
+    width: "160px",
+  },
+  {
+    id: 1,
+    logo: Social,
+    text: `Social`,
+    width: "150px",
+  },
+  {
+    id: 2,
+    logo: Facebook,
+    text: `Facebook`,
+    width: "150px",
+  },
+  {
+    id: 3,
+    logo: Hootsuite,
+    text: `Hootsuite`,
+    width: "150px",
+  },
+  {
+    id: 4,
+    logo: Facebook,
+    text: `Facebook`,
+    width: "101px",
+  },
+];
+
+export { sportCarsArray, electricCarsArray };

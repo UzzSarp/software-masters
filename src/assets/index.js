@@ -29,13 +29,13 @@ import design from './portfolio/Design.png';
 import Editing from './portfolio/Editing.png';
 import Hootsuite from './portfolio/Hootsuite.png';
 import HTML from './portfolio/HTML.png';
-import Responsiveness from './portfolio/Responsiveness.png';
-import SEO from './portfolio/SEO.png';
-import Shopify from './portfolio/Shopify.png';
-import Social from '/Users/uzziel/Desktop/software-masters/software-masters/src/assets/portfolio/Social.png';
-import Wordpress from './portfolio/Wordpress.png';
-import Facebook from '/Users/uzziel/Desktop/software-masters/software-masters/src/assets/portfolio/Facebook.png';
-
+import Responsiveness from './portfolio2/Responsiveness.png';
+import SEO from '../assets/portfolio2/SEO.png'
+import Shopify from '../assets/portfolio2/Shopify.png';
+import Social from '../assets/portfolio2/Social.png';
+import Wordpress from '../assets/portfolio2/Wordpress.png';
+import Facebook from '../assets/portfolio/Facebook.png';
+import Map from './9C4I.gif'
 
 export {
   airbnb,
@@ -74,5 +74,6 @@ export {
   Shopify,
   Social,
   Wordpress,
-  Facebook
+  Facebook,
+  Map,
 };

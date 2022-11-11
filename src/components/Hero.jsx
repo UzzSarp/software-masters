@@ -18,7 +18,7 @@ const Hero = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      A development team commited to providing high quality digital services to help you transform your business.
+      An agency committed to providing high quality services to help you digitally transform your business.
       </p>
     </div>
 
