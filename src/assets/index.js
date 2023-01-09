@@ -36,6 +36,8 @@ import Social from '../assets/portfolio2/Social.png';
 import Wordpress from '../assets/portfolio2/Wordpress.png';
 import Facebook from '../assets/portfolio/Facebook.png';
 import Map from './9C4I.gif'
+import business from '../assets/business.jpg'
+import portfolioimg from '../assets/portfolioimg.jpg'
 
 export {
   airbnb,
@@ -76,4 +78,6 @@ export {
   Wordpress,
   Facebook,
   Map,
+  business,
+  portfolioimg
 };

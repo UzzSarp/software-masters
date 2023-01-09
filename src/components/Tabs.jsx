@@ -62,7 +62,8 @@ export default function BasicTabs() {
             '& .MuiTab-root': { color: grey[700] },
             '& .Mui-selected': { color: blue[200] },
           }} 
-          centered>
+          centered
+          id="Tabs_menu">
           <Tab icon={<SsidChartIcon />} label="Website Analytics" {...a11yProps(0)}/>
           <Tab icon={<SupervisorAccountIcon />} label="Admin Support" {...a11yProps(1)}/>
           <Tab icon={<DvrIcon />} label="SEO Management" {...a11yProps(2)}/>

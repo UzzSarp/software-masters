@@ -152,6 +152,20 @@
   .Typewriter__wrapper {
     font-size: 52px;
   }
+  .css-1wf8b0h-MuiTabs-flexContainer {
+    display: block !important;
+  }
+
+  #simple-tab-0, #simple-tab-1, #simple-tab-2, #simple-tab-3 {
+    float: left;
+    margin: 2px;
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    list-style: none;
+    zoom: 1;
+    display: block;
+  }
 
 }
 

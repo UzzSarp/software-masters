@@ -9,7 +9,8 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import BasicTabs from "./Tabs";
-import Example from "./WebDemos"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact";
 
 export {
   Navbar,
@@ -23,5 +24,6 @@ export {
   Testimonials,
   Hero,
   BasicTabs,
-  Example
+  Portfolio,
+  Contact
 };
