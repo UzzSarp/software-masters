@@ -10,6 +10,7 @@ import SsidChartIcon from '@mui/icons-material/SsidChart';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import DvrIcon from '@mui/icons-material/Dvr';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import {admin, analytics, search, branding} from '../assets'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -73,7 +74,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         <section id="features" className={layout.section}>
           <div className={`${layout.sectionImg} flex-col`}>
-            
+            <img style={{height: '100%', width: '90%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} src={analytics} alt="" />
           </div>
           <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>Website Analytics</h2>
@@ -90,7 +91,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={1}>
         <section id="features" className={layout.section}>
             <div className={`${layout.sectionImg} flex-col`}>
-              
+              <img style={{height: '100%', width: '90%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} src={admin} alt="" />
             </div>
             <div className={layout.sectionInfo}>
               <h2 className={styles.heading2}>Admin Support</h2>
@@ -107,7 +108,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={2}>
         <section id="features" className={layout.section}>
           <div className={`${layout.sectionImg} flex-col`}>
-            
+            <img style={{height: '100%', width: '90%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} src={search} alt="" />
           </div>
           <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>SEO Management</h2>
@@ -124,7 +125,7 @@ export default function BasicTabs() {
       <TabPanel value={value} index={3}>
         <section id="features" className={layout.section}>
           <div className={`${layout.sectionImg} flex-col`}>
-            
+            <img style={{height: '100%', width: '90%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} src={branding} alt="" />
           </div>
           <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>ECommerce</h2>

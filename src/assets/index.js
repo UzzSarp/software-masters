@@ -1,9 +1,3 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -20,9 +14,6 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
 import Logo from "./Logo.png";
 import Design from './Design.svg';
 import design from './portfolio/Design.png';
@@ -36,16 +27,15 @@ import Social from '../assets/portfolio2/Social.png';
 import Wordpress from '../assets/portfolio2/Wordpress.png';
 import Facebook from '../assets/portfolio/Facebook.png';
 import Map from './9C4I.gif'
-import business from '../assets/business.jpg'
-import portfolioimg from '../assets/portfolioimg.jpg'
+import business from '../assets/business_website.png'
+import portfolioimg from '../assets/personal_website.png'
+import admin from '../assets/features/admin.jpg'
+import analytics from '../assets/features/analytics.jpg'
+import branding from '../assets/features/branding.jpg'
+import hosting from '../assets/features/hosting.jpg'
+import search from '../assets/search_engine.png'
 
 export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
   logo,
   quotes,
   robot,
@@ -62,9 +52,6 @@ export {
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03,
   Logo,
   Design,
   design,
@@ -79,5 +66,10 @@ export {
   Facebook,
   Map,
   business,
-  portfolioimg
+  portfolioimg,
+  admin,
+  analytics,
+  hosting,
+  branding,
+  search
 };

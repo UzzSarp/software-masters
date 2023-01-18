@@ -8,14 +8,14 @@ export default function Portfolio(props)
     var items = [
         {
             name: "Personal Portfolio",
-            description: "See how we can help you represent yourself",
-            image: "D:/Software Masters/software-masters/src/assets/business.jpg",
+            description: "Websites designed to help you showcase yourself",
+            image: business,
             button: "Portfolio"
         },
         {
             name: "Business Website",
-            description: "Check out our business demo website",
-            image: "D:/Software Masters/software-masters/src/assets/portfolioimg.jpg",
+            description: "Websites that really show off your business",
+            image: portfolioimg,
             button: "Business"
         }
     ]
@@ -33,12 +33,13 @@ function Item(props)
 {
     return (
         <section style={{backgroundColor: "transparent"}}>
-            <h2 className={styles.heading2}>This Could Be Your Future Website</h2>
+            <h2 className={`flex justify-center ${styles.heading2}`}>Website Inspiration</h2>
+            <p style={{position: 'relative', zIndex: 1, textAlign: 'center', color:'#fff', paddingBottom: '20px'}}>If you would like to know what a website designed by the Software Masters would look like, check out either of the two images below:</p>
             <Paper style={{height: 500, backgroundColor: "transparent"}}>
                 
-                <img src={props.item.image} style={{height: '88%', width: '100%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} alt="" />
-                <h2 style={{position: 'relative', zIndex: 1, textAlign: 'center', color:'#fff'}}>{props.item.name}</h2>
-                <p style={{position: 'relative', zIndex: 1, textAlign: 'center', color:'#fff'}}>{props.item.description}</p>
+                <img style={{height: '86%', width: '100%', position: 'absolute', zIndex: 0, borderRadius: "10px"}} src={props.item.image} alt="" />
+                <h2 style={{position: 'relative', zIndex: 1, textAlign: 'center', color:'#fff', top:'45%'}}>{props.item.name}</h2>
+                <p style={{position: 'relative', zIndex: 1, textAlign: 'center', color:'#fff', top:'45%'}}>{props.item.description}</p>
                 
 
                 <Button style={{position: 'relative', top: '80%', left: '46%', zIndex: 1, textAlign: 'center', color:'#fff'}} className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}>
